@@ -1,0 +1,276 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="WebStudio SiteGen 8.2.0"><title>YO Spa Agdal — spa hammam à Rabat</title><meta name="description" content="Rituels, vapeur, massages: un vrai moment de calme à Rabat."><meta property="og:title" content="YO Spa Agdal — spa hammam à Rabat"><meta property="og:description" content="Rituels, vapeur, massages: un vrai moment de calme à Rabat."><meta property="og:image" content="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqC7FwA9NR4eYhV66oDXVpEMCXgvTQbpbrEC83rBHHlxu7USUmORIECSXXh3Ql4dz_95gvYFdCMcEgN1agXyev_7V7lKw_TYNUvFPL8LRIFvhCl1ORyt6aL4M6C8A09skweeco_=w1200-h800-p-k-no"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><style>@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Mulish:wght@300;400;500;600;700&display=swap");</style><style>:root{--bg:#F6F2EA;--fg:#0F2A2A;--mut:rgba(15,42,42,.62);--line:rgba(15,42,42,.12);--acc:#2B98A3;--acc2:#EEA92A;--card:rgba(43,152,163,0.09);--fh:'DM Serif Display', ui-serif, Georgia, serif;--fb:'Mulish', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;--r:22px;}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--fb);-webkit-font-smoothing:antialiased}
+
+header{position:fixed;inset:0 0 auto 0;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 6vw;z-index:60;transition:all .25s}
+header.sc{background:rgba(255,255,255,.55);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.logo{font-family:var(--fh);text-decoration:none;font-size:18px}
+.burger{display:none;gap:6px;flex-direction:column;background:transparent;border:0;padding:8px;cursor:pointer}
+.burger span{width:22px;height:2px;background:var(--fg);border-radius:2px;opacity:.8}
+.nav{display:flex;align-items:center;gap:12px}
+.nav a{text-decoration:none;font-size:12px;color:var(--mut);padding:10px 10px;border-radius:999px;transition:all .2s}
+.nav a:hover{color:var(--fg);background:rgba(0,0,0,.04)}
+.nav .navcta{background:var(--acc);color:#fff;font-weight:800}
+
+.hero{min-height:100vh;display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;padding:118px 6vw 56px;position:relative;overflow:hidden}
+.blob{position:absolute;inset:auto -180px -180px auto;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle at 30% 30%, rgba(210,164,106,.42), transparent 60%), radial-gradient(circle at 60% 60%, rgba(31,109,107,.32), transparent 55%);filter:blur(2px);opacity:.85}
+.himg{border-radius:26px;border:1px solid var(--line);overflow:hidden;box-shadow:0 28px 90px rgba(0,0,0,.12);background:#ddd;min-height:440px}
+.himg img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02)}
+.hcopy{max-width:58ch}
+.k{letter-spacing:.22em;text-transform:uppercase;font-size:12px;color:var(--mut)}
+.h1{font-family:var(--fh);font-size:clamp(42px,5vw,70px);line-height:1.02;margin:14px 0 14px}
+.sub{color:var(--mut);line-height:1.85;font-size:15px}
+
+.book{background:rgba(255,255,255,.72);backdrop-filter:blur(14px);border:1px solid var(--line);border-radius:26px;padding:18px;box-shadow:0 24px 80px rgba(0,0,0,.10)}
+.book h3{margin:0 0 12px;font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:var(--fg)}
+.book label{display:block;font-size:11px;color:var(--mut);margin-top:10px}
+.book input,.book select{width:100%;padding:12px 12px;border-radius:14px;border:1px solid var(--line);background:#fff;font:inherit;margin-top:6px}
+.book button{margin-top:14px;width:100%;border:0;background:var(--acc);color:#fff;padding:12px 14px;border-radius:14px;font-weight:800;cursor:pointer}
+.book p{margin:10px 0 0;font-size:12px;color:var(--mut);line-height:1.6}
+
+section{padding:78px 6vw;border-top:1px solid var(--line)}
+.wrap{max-width:1240px;margin:0 auto}
+.h2{font-family:var(--fh);font-size:clamp(26px,3vw,44px);margin:0 0 10px}
+.p{color:var(--mut);line-height:1.85;max-width:72ch}
+
+.rit{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:24px}
+.rit .r{grid-column:span 4;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;padding:16px;position:relative;overflow:hidden}
+.rit .r b{display:block;font-size:14px;margin-bottom:8px}
+.rit .r p{margin:0;color:var(--mut);line-height:1.8;font-size:13px}
+.rit .r .m{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.chip{background:rgba(31,109,107,.08);border:1px solid rgba(31,109,107,.18);color:var(--fg);padding:7px 10px;border-radius:999px;font-size:12px}
+
+.tabs{margin-top:22px}
+.tabbar{display:flex;gap:10px;flex-wrap:wrap}
+.tabbar button{border:1px solid var(--line);background:rgba(255,255,255,.68);padding:10px 12px;border-radius:999px;cursor:pointer;font:inherit;color:var(--mut)}
+.tabbar button.on{background:var(--acc);color:#fff;border-color:transparent}
+.pane{display:none;margin-top:16px}
+.pane.on{display:block}
+
+.gal{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:24px}
+.gal a{grid-column:span 3;border-radius:18px;overflow:hidden;border:1px solid var(--line);cursor:pointer}
+.gal img{width:100%;height:180px;object-fit:cover;display:block;transform:scale(1.02);transition:transform .35s}
+.gal a:hover img{transform:scale(1.08)}
+
+.team{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:22px}
+.person{grid-column:span 4;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;padding:16px}
+.person b{display:block}
+.person span{color:var(--mut);font-size:12px}
+
+.pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.plan{background:rgba(255,255,255,.78);border:1px solid var(--line);border-radius:22px;padding:18px}
+.plan h3{margin:0}
+.plan .price{font-family:var(--fh);font-size:34px;margin-top:8px}
+.plan ul{margin:12px 0 0;padding-left:18px;color:var(--mut);line-height:1.8}
+
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.t{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;padding:16px}
+.t blockquote{margin:0;line-height:1.8;color:var(--fg);font-size:13px}
+.t figcaption{margin-top:10px;color:var(--mut);font-size:12px}
+
+.faqs{display:grid;gap:10px;margin-top:14px}
+.faq{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;background:transparent;border:0;color:var(--fg);padding:14px 16px;cursor:pointer;font-weight:800}
+.faq-q i{font-style:normal;color:var(--mut)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .25s ease}
+.faq-a>div{padding:0 16px 16px;color:var(--mut);line-height:1.8;font-size:13px}
+
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+.box{background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:22px;padding:18px}
+.box a{color:var(--fg)}
+.btn{display:inline-block;margin-top:12px;background:var(--acc);color:#fff;text-decoration:none;padding:12px 14px;border-radius:14px;font-weight:900}
+
+/* ---- Layout variants (SPA) ---- */
+.hero.v1{grid-template-columns:1fr;align-items:stretch;padding:0}
+.hero.v1 .blob{display:none}
+.hero.v1 .hcover{position:absolute;inset:0;background-size:cover;background-position:center;transform:scale(1.02)}
+.hero.v1 .hcover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg, rgba(0,0,0,.22), rgba(0,0,0,.60))}
+.hero.v1 .hinner{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;gap:14px;align-items:end;padding:128px 6vw 64px}
+.hero.v1 .k,.hero.v1 .sub{color:rgba(255,255,255,.86)}
+.hero.v1 .h1{color:#fff}
+.hero.v1 .book{background:rgba(255,255,255,.92)}
+
+.hero.v2{grid-template-columns:1fr;gap:18px}
+.hero.v2 .hcopy{max-width:80ch}
+.hero.v2 .hstack{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.hero.v2 .hcard{border:1px solid var(--line);border-radius:22px;padding:14px;background:rgba(255,255,255,.70)}
+.hero.v2 .hcard b{display:block}
+.hero.v2 .hcard span{display:block;color:var(--mut);margin-top:6px;line-height:1.7;font-size:13px}
+.hero.v2 .mosaic{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}
+.hero.v2 .mosaic .m{grid-column:span 4;border-radius:22px;overflow:hidden;border:1px solid var(--line);min-height:220px;background:#ddd}
+.hero.v2 .mosaic img{width:100%;height:100%;object-fit:cover;display:block;transform:scale(1.02)}
+
+.timeline{display:grid;gap:12px;margin-top:22px}
+.titem{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:22px;padding:14px}
+.titem .n{width:34px;height:34px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:rgba(31,109,107,.12);border:1px solid rgba(31,109,107,.18);font-weight:950}
+.titem b{display:block}
+.titem p{margin:6px 0 0;color:var(--mut);line-height:1.8;font-size:13px}
+.titem .meta{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap}
+
+.priceTable{display:grid;gap:10px;margin-top:18px}
+.priceRow{display:grid;grid-template-columns:1.2fr .8fr 1fr;gap:10px;align-items:center;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:18px;padding:12px 14px}
+.priceRow b{font-size:13px}
+.priceRow span{color:var(--mut);font-size:12px;line-height:1.6}
+.priceRow i{font-style:normal;font-weight:950;text-align:right}
+
+[data-reveal]{opacity:0;transform:translateY(16px);transition:opacity .6s ease, transform .6s ease}
+[data-reveal].in{opacity:1;transform:none}
+
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.86);display:none;align-items:center;justify-content:center;z-index:200}
+#lb.on{display:flex}
+#lb img{max-width:92vw;max-height:86vh;border-radius:18px;border:1px solid rgba(255,255,255,.25)}
+#lb button{position:absolute;top:18px;right:18px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:999px;padding:10px 12px;cursor:pointer}
+
+@media (max-width: 980px){
+  .hero{grid-template-columns:1fr;}
+  .himg{min-height:320px}
+  .pricing{grid-template-columns:1fr;}
+  .tgrid{grid-template-columns:1fr;}
+  .contact{grid-template-columns:1fr;}
+  .rit .r{grid-column:span 6}
+  .gal a{grid-column:span 4}
+  .person{grid-column:span 6}
+}
+@media (max-width: 720px){
+  .burger{display:flex}
+  .nav{position:fixed;inset:70px 12px auto 12px;display:none;flex-direction:column;align-items:stretch;background:rgba(255,255,255,.80);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:18px;padding:12px}
+  .nav.open{display:flex}
+}
+
+[data-reveal]{opacity:1;transform:none}
+.js [data-reveal]{opacity:0;transform:translateY(16px);transition:opacity .6s ease, transform .6s ease}
+.js [data-reveal].in{opacity:1;transform:none}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "YO Spa Agdal", "address": {"@type": "PostalAddress", "streetAddress": "Proche de Starbucks، Avenu, Av. Fal Ould Oumeir, Rabat 10090", "addressLocality": "Rabat", "addressCountry": "MA"}, "telephone": "+212629215288", "url": "http://www.yosparabat.com/"}</script></head><body id="top"><header><a class="logo" href="#top"><span style="display:flex;align-items:center;gap:10px"><img src="https://lh3.googleusercontent.com/sitesv/APaQ0SQGlJooCCXGoIVH9HB6NJXqiSAOeDKP8wk-LeKIuhJaa96AkZBJ2IoI_AQmH0SDYYetigqTwWT_93vChxb3JIPlnUIqF3oAiiN_Cm0nClHAZak60SHQcs_ebn4fA9X9RJ9ZUfqb9Nsrk-vaDc-TyI2W_88zmwAwMHKjOpU0ww1WzlHvWDHTgzoTeUBFDabLWPPgGQmGrJ7_N7r2GaHJFA" alt="YO Spa Agdal" loading="lazy" decoding="async" referrerpolicy="no-referrer" style="height:22px;width:auto;max-width:120px;object-fit:contain;border-radius:6px" onerror="try{this.remove()}catch(e){}"><span>YO Spa Agdal</span></span></a><button class="burger" data-burger aria-label="Menu" aria-expanded="false"><span></span><span></span></button><nav class="nav" data-nav><a href="#rituels">Rituels</a><a href="#tarifs">Tarifs</a><a href="#avis">Avis</a><a href="#faq">FAQ</a><a href="#contact">Réserver</a><a class="navcta" href="#contact">Contact</a></nav></header><section class="hero v1"><div class="hcover" style="background-image:url('https://lh3.googleusercontent.com/gps-cs-s/AHVAweqC7FwA9NR4eYhV66oDXVpEMCXgvTQbpbrEC83rBHHlxu7USUmORIECSXXh3Ql4dz_95gvYFdCMcEgN1agXyev_7V7lKw_TYNUvFPL8LRIFvhCl1ORyt6aL4M6C8A09skweeco_=w1200-h800-p-k-no');" data-bg="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqC7FwA9NR4eYhV66oDXVpEMCXgvTQbpbrEC83rBHHlxu7USUmORIECSXXh3Ql4dz_95gvYFdCMcEgN1agXyev_7V7lKw_TYNUvFPL8LRIFvhCl1ORyt6aL4M6C8A09skweeco_=w1200-h800-p-k-no|https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#536226%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a2037e%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#bf4056%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EYO%20Spa%20Agdal%3C/text%3E%3C/svg%3E"></div><div class="hinner"><div class="hcopy"><div class="k">spa hammam · Rabat</div><h1 class="h1" data-reveal>Respirer, puis ralentir</h1><p class="sub" data-reveal>Rituels, vapeur, massages: un vrai moment de calme à Rabat.</p><div class="punch" data-reveal><a class="btn" href="#contact">Réserver</a><a class="btn" href="https://wa.me/212629215288?text=Bonjour,%20je%20voudrais%20plus%20d&#x27;informations." target="_blank" rel="noopener">WhatsApp</a></div></div><div class="book" data-reveal><h3>Réservation</h3><label>Date</label><input type="date"><label>Rituel</label><select><option>Rituel</option><option>Hygiene</option><option>Gommage</option><option>Massage</option></select><label>Nom</label><input placeholder="Votre nom"><label>Téléphone</label><input placeholder="+212…"><button type="button" onclick="location.href='#contact'">Confirmer</button><p>Confirmation rapide par téléphone/WhatsApp.</p></div></div></section><section id="rituels"><div class="wrap"><h2 class="h2">Rituels signature</h2><p class="p">Des gestes traditionnels, une hygiène irréprochable, et une expérience conçue pour durer.</p><div class="timeline"><div class="titem" data-reveal><div class="n">1</div><div><b>Hammam traditionnel</b><p>Savon beldi, vapeur, gommage, detente.</p><div class="meta"><span class="chip">60-90 min</span><span class="chip">Réservation</span></div></div></div><div class="titem" data-reveal><div class="n">2</div><div><b>Gommage</b><p>Peau douce et nette, geste precis.</p><div class="meta"><span class="chip">30 min</span><span class="chip">Réservation</span></div></div></div><div class="titem" data-reveal><div class="n">3</div><div><b>Massage relaxant</b><p>Pressions lentes, detente profonde.</p><div class="meta"><span class="chip">60 min</span><span class="chip">Réservation</span></div></div></div><div class="titem" data-reveal><div class="n">4</div><div><b>Soin visage</b><p>Nettoyage, hydratation, eclat.</p><div class="meta"><span class="chip">45-60 min</span><span class="chip">Réservation</span></div></div></div><div class="titem" data-reveal><div class="n">5</div><div><b>Forfaits duo</b><p>Rituel en duo, parfait a offrir.</p><div class="meta"><span class="chip">Cadeau</span><span class="chip">Réservation</span></div></div></div><div class="titem" data-reveal><div class="n">6</div><div><b>Rituel signature</b><p>Experience complete, sur reservation.</p><div class="meta"><span class="chip">120 min</span><span class="chip">Réservation</span></div></div></div></div></div></section><section id="tarifs"><div class="wrap"><h2 class="h2">Forfaits</h2><p class="p">Des formules claires, adaptées à votre temps et vos envies.</p><div class="priceTable"><div class="priceRow" data-reveal><b>Essentiel</b><span>Hammam + gommage, thé à la menthe.</span><i>à partir de 250 MAD</i></div><div class="priceRow" data-reveal><b>Premium</b><span>Rituel complet + massage 30 min.</span><i>à partir de 450 MAD</i></div><div class="priceRow" data-reveal><b>Duo</b><span>Expérience à deux, sur réservation.</span><i>à partir de 650 MAD</i></div><div class="priceRow" data-reveal><b>Bon cadeau</b><span>Offrez un rituel (valable 3 mois).</span><i>montant libre</i></div></div></div></section><section id="equipe"><div class="wrap"><h2 class="h2">L'équipe</h2><p class="p">Des praticiennes formées, des gestes sûrs, et une approche douce.</p><div class="team"><div class="person" data-reveal><b>Samira</b><span>Rituels traditionnels</span></div><div class="person" data-reveal><b>Imane</b><span>Soins visage</span></div><div class="person" data-reveal><b>Noura</b><span>Massages</span></div></div></div></section><section id="experience"><div class="wrap"><h2 class="h2">Ambiance</h2><p class="p">Cliquez pour agrandir.</p><div class="gal"><a data-lb="https://lh3.googleusercontent.com/sitesv/APaQ0SSsqaTArPct5KmhHUb_mzyOQWkD1aCEDAvcD-OWG3pjNTlNpW5FmTLF0m2OPc1v6hj9yxQ1T8hG5rB7uPhs6OjvKtDaajkb7If8a1higjMzod8D5yy9I3fZ67yEJPpe1rS74vmzAzpRdK68-zI1JzvKKJ2sr8Ir5V18xHeQqrSuW7-z9M2a-h26tq8=w16383" href="javascript:void(0)" aria-label="Voir photo 1" data-reveal><img src="https://lh3.googleusercontent.com/sitesv/APaQ0SSsqaTArPct5KmhHUb_mzyOQWkD1aCEDAvcD-OWG3pjNTlNpW5FmTLF0m2OPc1v6hj9yxQ1T8hG5rB7uPhs6OjvKtDaajkb7If8a1higjMzod8D5yy9I3fZ67yEJPpe1rS74vmzAzpRdK68-zI1JzvKKJ2sr8Ir5V18xHeQqrSuW7-z9M2a-h26tq8=w16383" alt="YO Spa Agdal photo 1" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#536226%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a2037e%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#bf4056%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EYO%20Spa%20Agdal%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqC7FwA9NR4eYhV66oDXVpEMCXgvTQbpbrEC83rBHHlxu7USUmORIECSXXh3Ql4dz_95gvYFdCMcEgN1agXyev_7V7lKw_TYNUvFPL8LRIFvhCl1ORyt6aL4M6C8A09skweeco_=w1200-h800-k-no" href="javascript:void(0)" aria-label="Voir photo 2" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqC7FwA9NR4eYhV66oDXVpEMCXgvTQbpbrEC83rBHHlxu7USUmORIECSXXh3Ql4dz_95gvYFdCMcEgN1agXyev_7V7lKw_TYNUvFPL8LRIFvhCl1ORyt6aL4M6C8A09skweeco_=w1200-h800-k-no" alt="YO Spa Agdal photo 2" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#536226%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a2037e%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#bf4056%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EYO%20Spa%20Agdal%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAwep0uS-nBvTG_vbDOOE4ikL9eTxLDsM0h40I1n2Q3GYO8x4Dwd6mmzNOhFbMMeRXemFaHDQ4g8HIS_jqZaOG2n74dRFMuGDw2WSKlqMvXB1jLu8UUTbrasgosHBACnsNAE2JcUD2xArbUYU=w1200-h800-k-no" href="javascript:void(0)" aria-label="Voir photo 3" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwep0uS-nBvTG_vbDOOE4ikL9eTxLDsM0h40I1n2Q3GYO8x4Dwd6mmzNOhFbMMeRXemFaHDQ4g8HIS_jqZaOG2n74dRFMuGDw2WSKlqMvXB1jLu8UUTbrasgosHBACnsNAE2JcUD2xArbUYU=w1200-h800-k-no" alt="YO Spa Agdal photo 3" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#536226%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a2037e%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#bf4056%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EYO%20Spa%20Agdal%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqdYml1VVg27w5ac836ZpyzTHm9aPQAUSUmhRJ77rEkJDJG_LGrDspUUnrquXF5Fq1o46wwVVP-WKoxrbc15n2RN3jTLKawpGpDTN2_E43GLNrdBlhkCO5wkEehYQ3Kx2EXmjyiDmoaDjM=w1200-h800-k-no" href="javascript:void(0)" aria-label="Voir photo 4" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqdYml1VVg27w5ac836ZpyzTHm9aPQAUSUmhRJ77rEkJDJG_LGrDspUUnrquXF5Fq1o46wwVVP-WKoxrbc15n2RN3jTLKawpGpDTN2_E43GLNrdBlhkCO5wkEehYQ3Kx2EXmjyiDmoaDjM=w1200-h800-k-no" alt="YO Spa Agdal photo 4" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#536226%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a2037e%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#bf4056%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EYO%20Spa%20Agdal%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/a-/ALV-UjXj2HqVtX9Nw255L5pH7OJprGhJl1PhopPJSUUB2dAsmyWcG90=w1200-h800-p-rp-mo-br100" href="javascript:void(0)" aria-label="Voir photo 5" data-reveal><img src="https://lh3.googleusercontent.com/a-/ALV-UjXj2HqVtX9Nw255L5pH7OJprGhJl1PhopPJSUUB2dAsmyWcG90=w1200-h800-p-rp-mo-br100" alt="YO Spa Agdal photo 5" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#536226%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a2037e%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#bf4056%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EYO%20Spa%20Agdal%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/a-/ALV-UjVp6xz4hUbAecaN9rN2wkTOGqrRbsbLP99fUni861HUythMyCY=w1200-h800-p-rp-mo-br100" href="javascript:void(0)" aria-label="Voir photo 6" data-reveal><img src="https://lh3.googleusercontent.com/a-/ALV-UjVp6xz4hUbAecaN9rN2wkTOGqrRbsbLP99fUni861HUythMyCY=w1200-h800-p-rp-mo-br100" alt="YO Spa Agdal photo 6" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#536226%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a2037e%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#bf4056%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EYO%20Spa%20Agdal%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/a/ACg8ocLtfqg1Kghk_QZkUccgRD5yrjWdyJwqx6E22d464unvQGzZQw=w1200-h800-p-rp-mo-br100" href="javascript:void(0)" aria-label="Voir photo 7" data-reveal><img src="https://lh3.googleusercontent.com/a/ACg8ocLtfqg1Kghk_QZkUccgRD5yrjWdyJwqx6E22d464unvQGzZQw=w1200-h800-p-rp-mo-br100" alt="YO Spa Agdal photo 7" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#536226%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a2037e%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#bf4056%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EYO%20Spa%20Agdal%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweq7tzTFx-T0ASr9JxMNhsPPg_QvwOHM9DbSIjOC9L1IEC-qYkm6ppi5xZ46xBbJWOWY0fbQZtT0lqPohdWwJoOyjeOGy4EOrPM7v99sqtd667jVh5umfIH-hR1u6I5Kn7x7FnIiep6BOSyw=w1200-h800-p-k-no" href="javascript:void(0)" aria-label="Voir photo 8" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweq7tzTFx-T0ASr9JxMNhsPPg_QvwOHM9DbSIjOC9L1IEC-qYkm6ppi5xZ46xBbJWOWY0fbQZtT0lqPohdWwJoOyjeOGy4EOrPM7v99sqtd667jVh5umfIH-hR1u6I5Kn7x7FnIiep6BOSyw=w1200-h800-p-k-no" alt="YO Spa Agdal photo 8" data-fb="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#536226%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#a2037e%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#bf4056%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EYO%20Spa%20Agdal%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a></div></div></section><section id="avis"><div class="wrap"><h2 class="h2">Avis</h2><div class="tgrid"><figure class="t" data-reveal><blockquote>Rituel hammam complet. On ressort léger, comme remis à zéro. Très propre.</blockquote><figcaption><b>Youssef A.</b><span>Rabat</span></figcaption></figure><figure class="t" data-reveal><blockquote>Massage parfait, ambiance douce. J&#x27;ai trouvé mon adresse à Rabat.</blockquote><figcaption><b>Meryem M.</b><span>Rabat</span></figcaption></figure><figure class="t" data-reveal><blockquote>Réservation simple, ponctualité, et une vraie sensation de calme.</blockquote><figcaption><b>Nadia R.</b><span>Rabat</span></figcaption></figure></div></div></section><section id="faq"><div class="wrap"><h2 class="h2">FAQ</h2><div class="faqs"><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Quelle tenue prévoir ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Tout est fourni (serviette, peignoir). Venez simplement comme vous êtes.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Durée d&#x27;un rituel ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>En général 60 à 120 minutes selon le rituel choisi.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Bon cadeau ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Oui, bons cadeaux utilisables sur tous les rituels.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Annulation ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Modification possible jusqu&#x27;à 24h avant, selon disponibilité.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Hammam mixte ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Selon créneaux. Contactez-nous pour les horaires exacts.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Hygiène ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Matériel et espaces désinfectés entre chaque client.</div></div></div></div></div></section><section id="contact"><div class="wrap"><h2 class="h2">Contact &amp; réservation</h2><div class="contact"><div class="box" data-reveal><b>YO Spa Agdal</b><div style="margin-top:6px;color:var(--mut);line-height:1.8">Proche de Starbucks، Avenu, Av. Fal Ould Oumeir, Rabat 10090<br>Rabat</div><a class="btn" href="https://wa.me/212629215288?text=Bonjour,%20je%20voudrais%20plus%20d&#x27;informations." target="_blank" rel="noopener">WhatsApp</a></div><div class="box" data-reveal><div><b>Téléphone</b><div style="color:var(--mut)">+212629215288</div></div><div style="margin-top:10px"><b>Email</b><div style="color:var(--mut)">servicesyospa@gmail.com</div></div><div style="margin-top:10px"><a href="https://www.google.com/maps/place/YO+Spa+Agdal/data=!4m7!3m6!1s0xda76d0d0bc098e1:0xb65da2b0a693860d!8m2!3d33.9956237!4d-6.848126!16s%2Fg%2F11wvlrm82g!19sChIJ4ZjACw1tpw0RDYaTprCiXbY" target="_blank" rel="noopener">Itinéraire Google Maps</a></div></div></div></div></section><footer style="padding:34px 6vw;color:var(--mut);border-top:1px solid var(--line)"><div class="wrap">© 2026 YO Spa Agdal · Rabat</div></footer><div id="lb" aria-hidden="true"><button type="button" aria-label="Fermer">Fermer</button><img alt="Agrandissement"></div><script>
+(function(){
+  try{
+    // Only enable JS-scoped animations if this script runs correctly.
+    // If anything throws later, we remove the class so the page stays readable.
+    document.documentElement.classList.add('js');
+
+    const q = (s,el=document)=>el.querySelector(s);
+    const qa = (s,el=document)=>Array.from(el.querySelectorAll(s));
+
+    // Mobile nav
+    const burger = q('[data-burger]');
+    const nav = q('[data-nav]');
+    if(burger && nav){
+      burger.addEventListener('click', ()=>{
+        nav.classList.toggle('open');
+        burger.setAttribute('aria-expanded', nav.classList.contains('open') ? 'true':'false');
+      });
+      qa('a[href^="#"]', nav).forEach(a=>a.addEventListener('click', ()=>{
+        nav.classList.remove('open');
+        burger.setAttribute('aria-expanded','false');
+      }));
+    }
+
+    // Reveal on scroll (safe fallback if IntersectionObserver isn't available)
+    const reveals = qa('[data-reveal]');
+    if(reveals.length){
+      if('IntersectionObserver' in window){
+        const io = new IntersectionObserver((entries)=>{
+          entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in'); });
+        }, {threshold: 0.12});
+        reveals.forEach(el=>io.observe(el));
+      }else{
+        reveals.forEach(el=>el.classList.add('in'));
+      }
+    }
+
+    // Accordions
+    qa('[data-acc]').forEach(acc=>{
+      acc.addEventListener('click', ()=>{
+        const item = acc.closest('[data-acc-item]');
+        const opened = item.classList.toggle('open');
+        const panel = q('[data-acc-panel]', item);
+        if(panel){ panel.style.maxHeight = opened ? panel.scrollHeight+'px' : '0px'; }
+      });
+    });
+
+    // Tabs
+    qa('[data-tabs]').forEach(root=>{
+      const btns = qa('[data-tab]', root);
+      const panes = qa('[data-pane]', root);
+      const activate = (id)=>{
+        btns.forEach(b=>b.classList.toggle('on', b.getAttribute('data-tab')===id));
+        panes.forEach(p=>p.classList.toggle('on', p.getAttribute('data-pane')===id));
+      };
+      btns.forEach(b=>b.addEventListener('click', ()=>activate(b.getAttribute('data-tab'))));
+      if(btns[0]) activate(btns[0].getAttribute('data-tab'));
+    });
+
+    // Lightbox
+    const lb = q('#lb');
+    const lbImg = q('#lb img');
+    const lbClose = q('#lb button');
+    if(lb && lbImg){
+      qa('[data-lb]').forEach(el=>{
+        el.addEventListener('click', ()=>{
+          const im = el.querySelector('img');
+          const src = (im && (im.currentSrc || im.src)) || el.getAttribute('data-lb');
+          if(!src) return;
+          lbImg.src = src;
+          lb.classList.add('on');
+        });
+      });
+      const close = ()=>{ lb.classList.remove('on'); lbImg.src=''; };
+      if(lbClose) lbClose.addEventListener('click', close);
+      lb.addEventListener('click', (e)=>{ if(e.target===lb) close(); });
+      document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') close(); });
+    }
+
+    // Image fallback (when a remote image is blocked/expired)
+    // Supports multiple fallbacks via: data-fb="url1|url2"
+    qa('img[data-fb]').forEach(img=>{
+      const raw = (img.getAttribute('data-fb')||'').trim();
+      if(!raw) return;
+      const list = raw.split('|').map(s=>s.trim()).filter(Boolean);
+      if(!list.length) return;
+      img.addEventListener('error', ()=>{
+        let i = parseInt(img.getAttribute('data-fbi')||'0', 10);
+        while(i < list.length && (!list[i] || list[i] === img.getAttribute('src'))){ i++; }
+        if(i >= list.length) return;
+        img.setAttribute('data-fbi', String(i+1));
+        img.src = list[i];
+      });
+    });
+
+    // Background image fallback (hero/media blocks)
+    // Usage: <div class="hbg" data-bg="url1|url2|..."></div>
+    // We probe URLs sequentially with an Image() to detect failures, then set backgroundImage.
+    qa('[data-bg]').forEach(el=>{
+      const raw = (el.getAttribute('data-bg')||'').trim();
+      if(!raw) return;
+      const list = raw.split('|').map(s=>s.trim()).filter(Boolean);
+      if(!list.length) return;
+      let idx = 0;
+      const setBg = (u)=>{
+        const safe = String(u||'').replace(/['"]/g, (m)=> m==="'" ? "%27" : "%22");
+        el.style.backgroundImage = "url('" + safe + "')";
+      };
+      // Paint something immediately; if it fails, the probe will replace it.
+      try{ if(!el.style.backgroundImage) setBg(list[0]); }catch(e){}
+      const probe = ()=>{
+        if(idx >= list.length) return;
+        const u = list[idx++];
+        if(!u) return probe();
+        const img = new Image();
+        img.onload = ()=>{ try{ setBg(u); }catch(e){} };
+        img.onerror = ()=>{ probe(); };
+        img.src = u;
+      };
+      probe();
+    });
+
+    // Header shadow on scroll
+    const header = q('header');
+    if(header){
+      const onScroll = ()=>header.classList.toggle('sc', window.scrollY>8);
+      window.addEventListener('scroll', onScroll, {passive:true});
+      onScroll();
+    }
+  }catch(e){
+    try{ document.documentElement.classList.remove('js'); }catch(_e){}
+  }
+})();
+</script></body></html>
